@@ -1,0 +1,21 @@
+# Ignore the .env file containing environment variables
+.env
+
+# Ignore Python cache and log files
+__pycache__/
+*.py[cod]
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment folder
+virtual/
+
+# Ignore package managers' files
+Pipfile
+Pipfile.lock
+poetry.lock
+.poetry/
+node_modules/
